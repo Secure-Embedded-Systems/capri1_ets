@@ -1,0 +1,21 @@
+# Build artifacts
+*.o
+*.elf
+*.dump
+*.bin
+
+# Simulation artifacts
+work/
+transcript
+*.vcd
+*.wlf
+*.log*
+*.cmd*
+
+# Scan outputs (samples included, bulk excluded)
+# sim/scan_out/ has sample files checked in
+
+# IDE
+.vscode/
+*.swp
+*~
